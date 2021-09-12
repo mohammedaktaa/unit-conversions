@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Aktaa\\UnitConversions\\": "src"
+            "AktaaCo\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aktaa\\UnitConversions\\Tests\\": "tests"
+            "AktaaCo\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {

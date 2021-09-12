@@ -1,8 +1,8 @@
 <?php
 
-namespace Aktaa\UnitConversions\Tests;
+namespace AktaaCo\UnitConversions\Tests;
 
-use Aktaa\UnitConversions\Weight;
+use AktaaCo\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
 class WeightTest extends TestCase

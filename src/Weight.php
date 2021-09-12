@@ -1,6 +1,6 @@
 <?php
 
-namespace Aktaa\UnitConversions;
+namespace AktaaCo\UnitConversions;
 
 class Weight
 {
