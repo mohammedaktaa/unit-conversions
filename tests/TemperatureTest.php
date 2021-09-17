@@ -3,7 +3,6 @@
 namespace AktaaCo\UnitConversions\Tests;
 
 use AktaaCo\UnitConversions\Temperature;
-use AktaaCo\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
 class TemperatureTest extends TestCase
