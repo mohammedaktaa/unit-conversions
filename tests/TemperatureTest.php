@@ -2,15 +2,16 @@
 
 namespace AktaaCo\UnitConversions\Tests;
 
+use AktaaCo\UnitConversions\Temperature;
 use AktaaCo\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
-class WeightTest extends TestCase
+class TemperatureTest extends TestCase
 {
     /** @test */
-    public function true_is_true()
+    public function it_can_convert_celsius_to_fahrenheit()
     {
-        $lbs = Weight::fromKilograms(100)->toLbs();
-        $this->assertEquals(220.4623, $lbs);
+        $fahrenheit = Temperature::forCelsius(100)->toFahrenheit();
+        $this->assertEquals(212, $fahrenheit);
     }
 }
