@@ -4,7 +4,7 @@ namespace AktaaCo\UnitConversions;
 
 class Temperature
 {
-    public static function forCelsius(float $celsius)
+    public static function fromCelsius(float $celsius)
     {
         return new static($celsius);
     }
